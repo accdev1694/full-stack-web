@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>specificity</title>
+    <style>
+      #first-h1 {
+        color: blueviolet;
+      }
+      .off-white {
+        color: bisque;
+      }
+      h1 {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="first-h1">One</h1>
+    <h1 class="off-white">Two</h1>
+    <h1 class="off-white">Three</h1>
+    <h1>Four</h1>
+  </body>
+</html>
+
+<!-- 
+specificity preceedence:
+1. inline
+2. id
+3. class
+4. type 
+-->
