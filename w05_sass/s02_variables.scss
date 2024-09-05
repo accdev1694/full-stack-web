@@ -1,0 +1,25 @@
+$color: blue;
+%heading {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: orange;
+}
+
+ul {
+    @extend %heading;
+    font-size: 18px;
+    color: $color;
+    .first-ordered {
+        color: green;
+    }
+}
+
+ol {
+    @extend %heading;
+    font-size: 12px;
+    color: $color;
+}
+
+// install sass on you pc, make sure you have node: type: npm install -g sass 
+// to compile the sass file to a css file on the command window, type 'sass sassfile.scss:sassfile.css'
+// you can also watch for changes on your sass file: sass --watch s02_variables.scss:s02_variables.css
+// notice inheritence, variables and nested css selectors with sass. amazing

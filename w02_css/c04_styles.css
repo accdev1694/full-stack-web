@@ -3,7 +3,7 @@ h1 {
   color: blue;
 }
 
-div {
+.box {
   width: 300px;
   height: 200px;
   background-color: blue;
