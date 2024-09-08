@@ -92,3 +92,5 @@
 ##### Common cases of merge conflicts
 
 - if you have uncommited changes on your branch to which you are trying to pull into from origin.
+
+- in your branch, if you have created a feature branch aside your main/branch, and made some changes to that feature branch, which you are then trying to merge with the main/branch, if on the main branch, you have also made changes to the same lines, then you will encounter a conflict and then decide what to keep or merge.
