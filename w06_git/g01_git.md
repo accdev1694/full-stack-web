@@ -82,4 +82,6 @@
 
 - you 'git pull' to pull down the existing code state from the repository, unto your branch/main or local branch on your computer.
 
-- this may be changes other participants have made to the codebase,you do this in order to have the latest version, before you then begin to make your own changes.
+- this may be changes other participants have made to the codebase, you do this in order to have the latest version, before you then begin to make your own changes.
+
+- 
