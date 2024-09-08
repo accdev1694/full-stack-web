@@ -48,40 +48,47 @@
 
 - To save your changes, this is called commiting.
 
-#### Git Add
+##### Git Add
 
 - To stage your changes, 'git add hello.html' to add a specific file, or 'git add .' to save all your changes.
 
 - you may want to save only a specific file, whilst you are working on other files. just use git add [file name].
 
-#### Git Commit
+##### Git Commit
 
 - to commit changes, " 'git commit -m 'commit message' ", and type in a specific message of what exactly was the change that was made.
 
-#### Git add and commit shortcut
+##### Git add and commit shortcut
 
 - to git add and git add at the same time use 'git commit -am "commit message" '
 
-#### Git Push
+##### Git Push
 
 - to update or push your changes up to github, use 'git push'.
 
-#### Git Status
+##### Git Status
 
 - use 'git status' to see exactly what is going on inside your repository.
 
 - if you check your repo on github you will see that your commits have reflected. You have one branch by default after cloning you repo. That default branch is called 'master' or 'main'.
 
-#### Origin/Main vs Branch/Main
+##### Origin/Main vs Branch/Main
 
 - Origin main is your git repository, where your repo originated from
 
 - Branch main is your local cloned codebase on your computer
 
-#### Git Pull
+##### Git Pull
 
 - you 'git pull' to pull down the existing code state from the repository, unto your branch/main or local branch on your computer.
 
 - this may be changes other participants have made to the codebase, you do this in order to have the latest version, before you then begin to make your own changes.
 
-- 
+
+### Merge Conflicts
+
+- a git conflict happens when both origin and branch makes changes to the same part of the code, git doesnt know what to do when merging those two files and would depend on you to decide on which changes to keep or to combine them.
+
+##### Common cases of merge conflicts
+
+- if you have uncommited changes on your branch to which you are trying to pull into from origin.
