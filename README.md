@@ -12,10 +12,4 @@
 - Testing and CI/CD
 - Scalability and Security
 
-## Precedence in css selection
-- inline
-- id
-- class
-- element type
 
-##
